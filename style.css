@@ -1,0 +1,43 @@
+
+
+.inter-<normal> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+#body{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.navh{
+    color: #E6533C;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.navlink{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+.list{
+    list-style: none;
+    display: flex;
+    width: 70px;
+    height: 25px;
+}
+.lists{
+    display: flex;
+    gap: 30px;
+}
+#home{
+    background-color: #E6533C;
+    border-radius: 30px;
+    text-align: center;
+}
