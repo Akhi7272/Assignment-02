@@ -8,8 +8,10 @@
   font-variation-settings:
     "slnt" 0;
 }
-.shape{
-@import url('https://fonts.cdnfonts.com/css/miama')
+#shape{
+font-family: 'real_miami';
+font-weight: normal;
+font-style: normal;
 }
 #body{
     background-color: black;
