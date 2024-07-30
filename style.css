@@ -8,6 +8,10 @@
   font-variation-settings:
     "slnt" 0;
 }
+#color{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
 #shape{
 font-family: 'real_miami';
 font-weight: normal;
@@ -158,4 +162,55 @@ font-style: normal;
 #runimg{
     width: 350px;
     border-radius: 20px;
+}
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px;
+    text-align: center;
+}
+.bmi{
+    display: flex;
+    justify-content: space-around;
+    background-color: #222222;
+}
+.form{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    gap: 10px;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+}
+.bmih{
+    display: grid;
+    grid-column: auto;
+    justify-content: center;
+}
+.btnc{
+    margin-top: 10px;
+    background-color: #E6533C;
+    border-radius: 40px;
+    color: white;
+    padding: 5px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.text{
+    /* position: absolute; */
+    /* top: 100px; */
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+}
+.froot{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid tomato;
+    box-shadow: ;
+}
+ul{
+    text-decoration: none;
 }
