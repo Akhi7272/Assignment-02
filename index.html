@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="./style.css">
 </head>
 <body id="body" class="<inter-normal>">
-    <header class="">
+    <header class="head">
         <nav class="navbar">
             <h3 class="navh"><i>Fitness</i></h3>
             <ul class="lists">
@@ -127,15 +127,18 @@
                         <input type="text" placeholder="Height/cm">
                         <input type="number" placeholder="Weight/kg">
                         <input type="number" placeholder="Age">
-                        <select aria-placeholder="Sex">
-                            <option> Male</option>
-                            <option> Female</option>
-                            <option> Other</option>
+                        <select>
+                            <option value="">Sex</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
                         </select>
                         <select>
-                            <option>Work</option>
-                            <option>running</option>
-                            <option>free Hand Exercise</option>
+                            <option value="">Select an activity factor</option>
+                            <option value="work">Work</option>
+                            <option value="running">running</option>
+                            <option value="Exercise">free Hand Exercise</option>
+                            
                     </select>
                         </form>
                         <button class="btnc">Calculate</button>
@@ -143,42 +146,56 @@
 
             </div>
         </section>
-        <section class="color">
-            <div>
+        <section class="color team">
+            <div class="teams">
                 <h3>Meet Our Team</h3>
                 <p id="color">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
             </div>
-            <div class="team">
-                <div>
-                    <img src="./images/trainer1.png" alt="trainer1">
+            <div>
+                <div class="teami">
+                    <img class="img" src="./images/t1.png" alt="trainer1">
+                    <img class="img" src="./images/t2.png" alt="trainer2">
+                    <img class="img" src="./images/t3.png" alt="trainer3">
+                    <img class="img" src="./images/t4.png" alt="trainer4">
+                    <img class="img" src="./images/t5.png" alt="trainer5">
+                    <img class="img" src="./images/t6.png" alt="trainer6">
+                    </div>
+                <div class="t1">
                     <h4 class="text">Jerome Bell</h4>
                     <p id="color">Trainer</p>
                 </div>
-                <div>
-                    <img src="./images/trainer2.png" alt="trainer2">
+                <div class="t2">
                     <h4 class="text">Cameron Williamson</h4>
                     <p id="color">Trainer</p>
                 </div>
-                <div>
-                    <img src="./images/trainer3.png" alt="trainer3">
+                <div class="t3">
                     <h4 class="text">Darrell Steward</h4>
                     <p id="color">Trainer</p>
                 </div>
-                <div>
-                    <img src="./images/trainer4.png" alt="trainer4">
+                <div class="t4">
                     <h4 class="text">Dianne Russell</h4>
                     <p id="color">Trainer</p>
                 </div>
-                <div>
-                    <img src="./images/trainer5.png" alt="trainer5">
+                
+                <div class="t5">
                     <h4 class="text">Cody Fisher</h4>
                     <p id="color">Trainer</p>
                 </div>
-                <div>
-                    <img src="./images/trainer6.png" alt="trainer6">
+                <div class="t6">
                     <h4 class="text">Theresa Webb</h4>
                     <p id="color">Trainer</p>
                 </div>
+            </div>
+        </section>
+        <section>
+            <div class="mainh">
+                <h3 class="color">Our Advice</h3>
+                <p id="color">To get Proper benefit of gym, everyon should eat healthy food. Eating a healthy diet that includes lots of fruit,<br> vegetables, whole grains and a moderate amount of unsaturated fats, meat and dairy can help you to get enough energy.</p>
+            </div>
+            <div class="mainimg">
+                <img class="img" src="./images/protien.jpg">
+                <img class="img" src="./images/juice.jpg">
+                <img class="img" src="./images/food.jpg">
             </div>
         </section>
 
@@ -187,7 +204,7 @@
         <section class="froot">
             <div>
             <h3 class="navh"><i>Fitness</i></h3>
-            <p id="color">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+            <p id="color">We believe fitness should be accessible to everyone,<br> everywhere, regardless of income or access to a gym. With <br>hundreds of professional workouts.</p>
         </div>
         <div>
             <h4 class="color">Get Started</h4>
@@ -206,6 +223,11 @@
                 <li>Workout Library</li>
                 <li>App Design</li>
             </ul>
+        </div>
+    </section>
+    <section>
+        <div>
+            <p id="color" class="copy">All right reserved @Fitness 2024</p>
         </div>
     </section>
     </footer>

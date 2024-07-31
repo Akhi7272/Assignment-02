@@ -20,6 +20,12 @@ font-style: normal;
 #body{
     background-color: black;
 }
+.head{
+    margin: 50px 200px;
+    padding: 10px;
+    justify-content: center;
+    /* position: relative; */
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -99,8 +105,8 @@ font-style: normal;
     height: 100px;
     border-radius: 15px;
     position: absolute;
-    bottom: 50px;
-    right: 500px;
+    bottom: 10px;
+    right: 290px;
     justify-items: center;
 }
 .box{
@@ -110,8 +116,8 @@ font-style: normal;
     background-color: rgba(48, 48, 48, 0.54);
     border-radius: 15px;
     position: absolute;
-    top: 250px;
-    right: 300px;
+    top: 300px;
+    right: 50px;
     text-align: center;
 }
 .mainh{
@@ -178,9 +184,9 @@ td,th{
 }
 .form{
     display: grid;
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    /* background-color: rgba(255, 255, 255, 0.1); */
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .bmih{
     display: grid;
@@ -197,20 +203,70 @@ td,th{
     font-weight: 500;
 
 }
-.text{
-    /* position: absolute; */
-    /* top: 100px; */
-}
 .team{
-    display: grid;
-    grid-template-columns: repeat(3, 300px);
+    position: relative;
 }
 .froot{
     display: flex;
     justify-content: space-evenly;
     border-bottom: 1px solid tomato;
-    box-shadow: ;
+    margin: 50px 220px;
+    padding: 10px;
+
 }
-ul{
-    text-decoration: none;
+ul li{
+    list-style: none;
 }
+.copy{
+    text-align: center;
+}
+.teami{
+    display: grid;
+    grid-template-columns: repeat(3,.2fr);
+    gap: 10px;
+    background-color: #222222;
+    margin: 50px 220px;
+    padding: 10px;
+
+}
+.img{
+    width: 325px;
+    height: 275px;
+}
+.teams{
+    text-align: center;
+}
+.t1{
+    position: absolute;
+    top: 300px;
+    left: 230px;
+}
+.t2{
+    position: absolute;
+    top: 300px;
+    left: 570px;
+}
+.t3{
+    position: absolute;
+    top: 300px;
+    left: 905px;
+}
+.t4{
+    position: absolute;
+    top: 600px;
+    left: 230px;
+}
+.t5{
+    position: absolute;
+    top: 600px;
+    left: 905px;
+}
+.t6{
+     position: absolute;
+    top: 600px;
+    left: 570px;
+}
+
+
+
+
