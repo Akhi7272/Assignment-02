@@ -24,7 +24,6 @@ font-style: normal;
     margin: 50px 200px;
     padding: 10px;
     justify-content: center;
-    /* position: relative; */
 }
 .navbar{
     display: flex;
@@ -35,6 +34,7 @@ font-style: normal;
     color: #E6533C;
     font-weight: 800;
     font-size: 2rem;
+    padding: 10px;
 }
 .navlink{
     text-decoration: none;
@@ -50,12 +50,16 @@ font-style: normal;
 .lists{
     display: flex;
     gap: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
+    padding: 10px;
+    margin: 45px;
 }
 #home{
     background-color: #E6533C;
     border-radius: 30px;
     text-align: center;
-    padding: 5px 10px;
+    padding: 5px;
 }
 .banner{
     display: flex;
@@ -181,11 +185,18 @@ td,th{
     display: flex;
     justify-content: space-around;
     background-color: #222222;
+    padding-bottom: 20px;
 }
 .form{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    border-radius: 8px;
+}
+.colors{
+    color: rgba(255, 255, 255, 0.6);
+}
+.input{
     background-color: rgba(255, 255, 255, 0.1);
 }
 .bmih{
@@ -209,16 +220,20 @@ td,th{
 .froot{
     display: flex;
     justify-content: space-evenly;
-    border-bottom: 1px solid tomato;
     margin: 50px 220px;
     padding: 10px;
-
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 ul li{
     list-style: none;
+    justify-items: left;
+}
+.fh{
+    text-align: center;
 }
 .copy{
     text-align: center;
+    padding-bottom: 20px;
 }
 .teami{
     display: grid;
@@ -235,6 +250,7 @@ ul li{
 }
 .teams{
     text-align: center;
+    margin-top: 70px;
 }
 .t1{
     position: absolute;
@@ -266,7 +282,11 @@ ul li{
     top: 600px;
     left: 570px;
 }
-
-
+.footer{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.item{
+    grid-column: 1/-1;
+}
 
 
