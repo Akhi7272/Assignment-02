@@ -19,22 +19,21 @@ font-style: normal;
 }
 #body{
     background-color: black;
+    width: 1440px;
 }
 .head{
-    margin: 50px 200px;
     padding: 10px;
     justify-content: center;
+    
 }
 .navbar{
     display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
+    justify-content: space-around;
+}    
 .navh{
     color: #E6533C;
     font-weight: 800;
     font-size: 2rem;
-    padding: 10px;
 }
 .navlink{
     text-decoration: none;
@@ -53,7 +52,7 @@ font-style: normal;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 40px;
     padding: 10px;
-    margin: 45px;
+    margin: 45px 0px;
 }
 #home{
     background-color: #E6533C;
@@ -63,7 +62,7 @@ font-style: normal;
 }
 .banner{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 1440px;  
 }
 .bannerh{
@@ -109,8 +108,8 @@ font-style: normal;
     height: 100px;
     border-radius: 15px;
     position: absolute;
-    bottom: 10px;
-    right: 290px;
+    top: 600px;
+    right: 470px;
     justify-items: center;
 }
 .box{
@@ -120,9 +119,10 @@ font-style: normal;
     background-color: rgba(48, 48, 48, 0.54);
     border-radius: 15px;
     position: absolute;
-    top: 300px;
-    right: 50px;
+    top: -250px;
+    left: 350px;
     text-align: center;
+    padding-bottom: 20px;
 }
 .mainh{
     text-align: center;
@@ -287,6 +287,22 @@ ul li{
 }
 .item{
     grid-column: 1/-1;
+}
+
+/* small device responsiv */
+@media screen and (max-width: 576px) {
+    .lists{
+        display: none;
+    }
+    .banner
+    .mainimg{
+        flex-direction: column;
+    }
+    #body{
+        margin: 0px;
+        padding: 0px;
+    }
+    
 }
 
 
