@@ -115,7 +115,7 @@ font-style: normal;
     border-radius: 15px;
     position: absolute;
     top: 600px;
-    right: 370px;
+    right: 320px;
     justify-items: center;
 }
 .box{
@@ -228,6 +228,7 @@ td,th{
     justify-content: space-evenly;
     margin: 50px 220px;
     padding: 10px;
+    width: 100px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 ul li{
@@ -250,6 +251,7 @@ ul li{
     background-color: #222222;
     margin: 50px 220px;
     padding: 10px;
+    width: 100%;
 
 }
 .img{
@@ -298,19 +300,93 @@ ul li{
 }
 
 /* small device responsiv */
-@media screen and (max-width: 576px) {
-    .lists{
+@media only screen and (max-width: 576px) {
+    .navbar{
+        justify-content: flex-start;
+    }
+
+    .lists {
         display: none;
     }
-    .banner
-    .mainimg{
+    .banner,
+    .mainimg,
+    .froot,
+    .bmi,
+    .mainspart{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+        margin: 0px auto;
+        width: 100%;
     }
-    #body{
+    *{
         margin: 0px;
         padding: 0px;
     }
-    
+    .teami,
+    .form{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px 0;
+        margin: 0 auto;
+    }
+    .copy{
+        text-align: left;
+        padding: 20px 0px;
+    }
+    .navh{
+    color: #E6533C;
+    font-weight: 800;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
 }
-
-
+.t2{
+    position: absolute;
+    top: 650px;
+    left: 20px;
+}
+.t1{
+    position: absolute;
+    top: 360px;
+    left: 20px;
+}
+.t3{
+    position: absolute;
+    top: 930px;
+    left: 20px;
+}
+.t4{
+    position: absolute;
+    top: 1220px;
+    left: 20px;
+}
+.t5{
+    position: absolute;
+    top: 1500px;
+    left: 20px;
+}
+.t6{
+    position: absolute;
+    top: 1800px;
+    left: 20px;
+}
+.head{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+.box{
+    position: absolute;
+    top: -200px;
+    left: 280px;
+}
+.boxs{
+    position: absolute;
+    top: 750px;
+    right: 250px;
+}
+}
