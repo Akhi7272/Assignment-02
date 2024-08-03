@@ -19,7 +19,11 @@ font-style: normal;
 }
 #body{
     background-color: black;
-    width: 1440px;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
 }
 .head{
     padding: 10px;
@@ -34,6 +38,8 @@ font-style: normal;
     color: #E6533C;
     font-weight: 800;
     font-size: 2rem;
+    padding: 10px;
+    margin: 45px 0px;
 }
 .navlink{
     text-decoration: none;
@@ -229,7 +235,9 @@ ul li{
     justify-items: left;
 }
 .fh{
-    text-align: center;
+    text-align: left;
+    padding: 10px;
+    margin: 45px 0px;
 }
 .copy{
     text-align: center;
