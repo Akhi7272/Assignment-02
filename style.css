@@ -28,11 +28,12 @@ font-style: normal;
 }
 .head{
     padding: 10px;
-    justify-content: center;
+    /* justify-content: space-around; */
 }
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 10px 80px;
 }    
 .navh{
     color: #E6533C;
@@ -69,8 +70,9 @@ font-style: normal;
 }
 .banner{
     display: flex;
-    justify-content: space-around;
-    width: 100%;  
+    justify-content: space-between;
+    position: relative; 
+    margin: 0 80px;
 }
 .bannerh{
     color: white;
@@ -79,6 +81,7 @@ font-style: normal;
 .bannerp{
     color: white;
     font-size: 1rem;
+    padding: 5px;
 }
 .btn{
     background-color: #E6533C;
@@ -115,8 +118,8 @@ font-style: normal;
     height: 60px;
     border-radius: 15px;
     position: absolute;
-    top: 600px;
-    right: 450px;
+    top: 450px;
+    right: 380px;
     justify-items: center;
     padding: 10px;
 }
@@ -128,8 +131,8 @@ font-style: normal;
     background-color: rgba(48, 48, 48, 0.54);
     border-radius: 15px;
     position: absolute;
-    top: 300px;
-    left: 920px;
+    top: 150px;
+    left: 850px;
     text-align: center;
 }
 .mainh{
@@ -148,7 +151,7 @@ font-style: normal;
 .mainimg{
     display: flex;
     gap: 30px;
-    margin: 10px 200px;
+    margin: 50px 200px;
     border-radius: 5px;
     justify-content: center;
     text-align: center;
@@ -174,7 +177,7 @@ font-style: normal;
     justify-content: center;
     gap: 50px;
     background-color: #222222;
-    margin: 50px 300px;
+    margin: 50px 200px;
     padding: 20px;
 }
 #run{
@@ -199,6 +202,9 @@ td,th{
     padding: 10px;
     margin: 50px 200px;
 }
+.formt{
+    padding: 50px;
+}
 .form{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -211,10 +217,14 @@ td,th{
 .input{
     background-color: rgba(255, 255, 255, 0.1);
 }
-.bmih{
+.bimh{
     display: grid;
     grid-column: auto;
     justify-content: center;
+    margin: 0 200px;
+}
+.bmit{
+    padding: 50px;
 }
 .btnc{
     margin-top: 10px;
@@ -259,8 +269,8 @@ ul li{
     justify-content: center;
 }
 .team-container{
-    width: 100%;
-    height: 100%;
+    position: relative;
+    margin-bottom: 50px;
 }
 .img{
     width: 100%;
@@ -269,36 +279,36 @@ ul li{
 }
 .teams{
     text-align: center;
-    margin-top: 7%;
+    margin-bottom: 20px;
 }
 .t1{
     position: absolute;
-    top: 45%;
+    top: 38%;
     left: 30%;
 }
 .t2{
     position: absolute;
-    top: 45%;
+    top: 38%;
     left: 44%;
 }
 .t3{
     position: absolute;
-    top: 45%;
+    top: 38%;
     left: 58%;
 }
 .t4{
     position: absolute;
-    top: 90%;
+    top: 87%;
     left: 30%;
 }
 .t5{
     position: absolute;
-    top: 90%;
+    top: 87%;
     left: 44%;
 }
 .t6{
     position: absolute;
-    top: 90%;
+    top: 87%;
     left: 58%;
 }
 .footer{
@@ -316,15 +326,44 @@ ul li{
     }
     .humber{
         display: block;
-        height: 24px;
+        height: 3px;
         width: 24px;
         background-color: white;
         position: absolute;
         top: 1%;
         right: 5%;
-        border: 1px solid green;
+        border-radius: 5px;
     }
-
+    .humber1{
+        display: block;
+        height: 3px;
+        width: 24px;
+        background-color: white;
+        position: absolute;
+        top: 1.5%;
+        right: 5%;
+        border-radius: 5px;
+    }
+    .humber2{
+        display: block;
+        height: 3px;
+        width: 24px;
+        background-color: white;
+        position: absolute;
+        top: 2%;
+        right: 5%;
+        border-radius: 5px;
+    }
+    .humber3{
+        display: block;
+        height: 3px;
+        width: 24px;
+        background-color: white;
+        position: absolute;
+        top: 2.5%;
+        right: 5%;
+        border-radius: 5px;
+    }
     .lists {
         display: none;
     }
