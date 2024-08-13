@@ -330,47 +330,7 @@ ul li{
         justify-content: flex-start;
         margin: 0;
     }
-     /* .humber{ */
-        display: block;
-        height: 1px;
-        width: 24px;
-        background-color: white;
-        position: absolute;
-        top: 1%;
-        right: 5%;
-        border-radius: 5px;
-    
-    /* .humber1{ */
-        display: block;
-        height: 1px;
-        width: 24px;
-        background-color: white;
-        position: absolute;
-        top: 2.5%;
-        right: 5%;
-        border-radius: 5px;
-    
-    /* .humber2{ */
-        display: block;
-        height: 1px;
-        width: 24px;
-        background-color: white;
-        position: absolute;
-        top: 3.5%;
-        right: 5%;
-        border-radius: 5px;
-
-    /* .humber3{ */
-        display: block;
-        height: 1px;
-        width: 24px;
-        background-color: white;
-        position: absolute;
-        top: 4.5%;
-        right: 5%;
-        border-radius: 5px;
-    }
-    
+     
     .lists{
         display: none;
     }
