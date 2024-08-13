@@ -12,6 +12,10 @@
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
 }
+.fa-solid{
+    color: white;
+    display: none;
+}
 #shape{
 font-family: 'real_miami';
 font-weight: normal;
@@ -150,6 +154,7 @@ font-style: normal;
 }
 .mainimg{
     display: flex;
+    flex: 1;
     gap: 30px;
     margin: 50px 200px;
     border-radius: 5px;
@@ -323,50 +328,73 @@ ul li{
 @media only screen and (max-width: 576px) {
     .navbar{
         justify-content: flex-start;
+        margin: 0;
     }
-    .humber{
+     /* .humber{ */
         display: block;
-        height: 3px;
+        height: 1px;
         width: 24px;
         background-color: white;
         position: absolute;
         top: 1%;
         right: 5%;
         border-radius: 5px;
-    }
-    .humber1{
+    
+    /* .humber1{ */
         display: block;
-        height: 3px;
-        width: 24px;
-        background-color: white;
-        position: absolute;
-        top: 1.5%;
-        right: 5%;
-        border-radius: 5px;
-    }
-    .humber2{
-        display: block;
-        height: 3px;
-        width: 24px;
-        background-color: white;
-        position: absolute;
-        top: 2%;
-        right: 5%;
-        border-radius: 5px;
-    }
-    .humber3{
-        display: block;
-        height: 3px;
+        height: 1px;
         width: 24px;
         background-color: white;
         position: absolute;
         top: 2.5%;
         right: 5%;
         border-radius: 5px;
+    
+    /* .humber2{ */
+        display: block;
+        height: 1px;
+        width: 24px;
+        background-color: white;
+        position: absolute;
+        top: 3.5%;
+        right: 5%;
+        border-radius: 5px;
+
+    /* .humber3{ */
+        display: block;
+        height: 1px;
+        width: 24px;
+        background-color: white;
+        position: absolute;
+        top: 4.5%;
+        right: 5%;
+        border-radius: 5px;
     }
-    .lists {
+    
+    .lists{
         display: none;
     }
+    .fa-solid{
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: block;
+    padding-top: 15px;
+    }
+    .mainh{
+    text-align: center;
+    color: white;
+    border-top: 100px;
+    margin: 1% 8%;
+}
+    .bimh{
+    display: grid;
+    grid-column: auto;
+    justify-content: center;
+    margin: 0 20px;
+}
     .banner,
     .mainimg,
     .bmi,
@@ -384,9 +412,10 @@ ul li{
     .froot{
         flex-direction: column;
     }
+    
     *{
         margin: 0px;
-        padding: 0px;
+        padding: 5px;
     }
     .teami{
         grid-template-columns: repeat(1, 1fr);
@@ -405,7 +434,7 @@ ul li{
     }
     .copy{
         text-align: left;
-        padding: 20px 0px;
+        margin: 0 50px;
     }
     .navh{
     color: #E6533C;
@@ -416,23 +445,23 @@ ul li{
 }
 .t2{
     position: absolute;
-    top: 400px;
+    top: 300px;
     left: 20px;
 }
 
 .t3{
     position: absolute;
-    top: 930px;
+    top: 750px;
     left: 20px;
 }
 .t5{
     position: absolute;
-    top: 1400px;
+    top: 1200px;
     left: 20px;
 }
 .t6{
     position: absolute;
-    top: 1850px;
+    top: 1580px;
     left: 20px;
 }
 .head{
@@ -442,13 +471,13 @@ ul li{
 }
 .box{
     position: absolute;
-    top: 500px;
-    left: 280px;
+    top: 550px;
+    left: 300px;
 }
 .boxs{
     position: absolute;
-    top: 700px;
-    right: 250px;
+    top: 730px;
+    right: 200px;
 }
 .imgm{
     display: none;
