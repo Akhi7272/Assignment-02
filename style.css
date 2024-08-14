@@ -156,10 +156,24 @@ font-style: normal;
     display: flex;
     flex: 1;
     gap: 30px;
-    margin: 50px 200px;
-    border-radius: 5px;
     justify-content: center;
     text-align: center;
+    margin: 50px 200px;
+    padding: 10px 0;
+    background-color: #222222;
+}
+.mainimgs{
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #222222;
+}
+.advice{
+    margin: 50px 200px;
+    
 }
 #imgs{
     border-radius: 50%;
@@ -282,6 +296,11 @@ ul li{
     height: 100%;
     object-fit: cover;
 }
+.imga{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
 .teams{
     text-align: center;
     margin-bottom: 20px;
@@ -358,11 +377,12 @@ ul li{
     .banner,
     .mainimg,
     .bmi,
-    .mainspart{
+    .mainspart,
+    .mainimgs{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 20px 0;
+        padding: 10px 0;
         margin: 0px auto;
         width: 100%;
     }
@@ -377,12 +397,13 @@ ul li{
         margin: 0px;
         padding: 5px;
     }
-    .teami{
+    .teami,
+    .advice{
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
         align-items: center;
         width: 100%;
-        padding: 20px 0px;
+        padding: 10px 0px;
         margin: 0 auto;
     }
     .form{
@@ -405,23 +426,23 @@ ul li{
 }
 .t2{
     position: absolute;
-    top: 300px;
+    top: 350px;
     left: 20px;
 }
 
 .t3{
     position: absolute;
-    top: 750px;
+    top: 850px;
     left: 20px;
 }
 .t5{
     position: absolute;
-    top: 1200px;
+    top: 1400px;
     left: 20px;
 }
 .t6{
     position: absolute;
-    top: 1580px;
+    top: 1800px;
     left: 20px;
 }
 .head{
